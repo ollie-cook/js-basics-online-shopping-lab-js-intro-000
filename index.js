@@ -16,7 +16,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here 
+  // write your code here
   var cartList='In your cart, you have'
   if(cart.length!==0){
   for (let i=0;i<cart.length;i++){
