@@ -41,6 +41,7 @@ function total() {
   for(let i=0;i<cart.length;i++){
     cartValue += cart[i].itemPrice
   }
+  return cartValue
 }
 
 function removeFromCart(item) {
