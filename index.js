@@ -45,13 +45,13 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here 
-  var sign =-1 
+  // write your code here
+  var sign =-1
   for(let i=0;i<cart.length;i++){
     if(cart[i].itemName===item){
       sign = i
     }
-  } 
+  }
   if (sign !== -1){
     cart.splice(sign,1)
     return cart
