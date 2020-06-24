@@ -36,7 +36,7 @@ return cartList;
 }
 
 function total() {
-  // write your code here 
+  // write your code here
   var cartValue=0
   for(let i=0;i<cart.length;i++){
     cartValue += cart[i].itemPrice
